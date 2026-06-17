@@ -20,25 +20,26 @@ export class Tab1Page {
 
   listaFilmes: IFilme[] = [
     {
-      nome: 'Mortal Kombat (2021)',
-      lancamento: '15/04/2021',
-      duracao: '1h50m',
-      classificacao: 9,
+nome: 'O Espetacular Homem-Aranha (2012)',
+      lancamento: '06/07/2012',
+      duracao: '2h16m',
+      classificacao: 8,
       cartaz: 'https://themoviedb.org',
-      generos: ['Ação', 'Fantasia', 'Aventura'],
-      pagina: '/mortal-kombat',
+      generos: ['Ação', 'Ficção científica', 'Aventura'],
+      pagina: '/the-amazing-spider-man',
       favorito: false
     },
     {
-      nome: 'Vingadores: Ultimato (2019)',
-      lancamento: '25/04/2019 (BR)',
-      duracao: '3h01m',
-      classificacao: 6,
+nome: 'Batman: O Cavaleiro das Trevas (2008)',
+      lancamento: '18/07/2008',
+      duracao: '2h32m',
+      classificacao: 10,
       cartaz: 'https://themoviedb.org',
-      generos: ['Aventura', 'Ficção científica', 'Ação'],
-      pagina: '/avengers',
+      generos: ['Ação', 'Crime', 'Thriller'],
+      pagina: '/the-dark-knight',
       favorito: false
     }
+  
   ];
 
   exibirFilme(filme: IFilme){

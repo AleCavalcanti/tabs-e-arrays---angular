@@ -12,21 +12,21 @@ export class Tab2Page {
 
   listaSeries: ISerie[] = [
     {
-      nome: 'Breaking Bad',
-      lancamento: '20/01/2008',
-      temporadas: '5 Temporadas',
+      nome: 'The Last of Us',
+      lancamento: '15/01/2023',
+      temporadas: '1 Temporada',
       classificacao: 9,
       cartaz: 'https://tmdb.org',
-      generos: ['Drama', 'Crime'],
+      generos: ['Drama', 'Ficção científica', 'Ação'],
       favorito: false
     },
     {
-      nome: 'Stranger Things',
-      lancamento: '15/07/2016',
-      temporadas: '4 Temporadas',
-      classificacao: 8,
+      nome: 'Better Call Saul',
+      lancamento: '08/02/2015',
+      temporadas: '6 Temporadas',
+      classificacao: 9,
       cartaz: 'https://tmdb.org',
-      generos: ['Sci-Fi', 'Mistério'],
+      generos: ['Drama', 'Crime'],
       favorito: false
     }
   ];

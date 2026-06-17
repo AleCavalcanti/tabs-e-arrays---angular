@@ -12,21 +12,21 @@ export class Tab3Page {
 
   listaAtores: IAtor[] = [
     {
-      nome: 'Ryan Gosling',
-      nascimento: '12/11/1980',
-      nacionalidade: 'Canadense',
+      nome: 'Cillian Murphy',
+      nascimento: '25/05/1976',
+      nacionalidade: 'Irlandês',
       popularidade: 9,
       foto: 'https://tmdb.org',
-      filmesFamosos: ['La La Land', 'Blade Runner 2049', 'Barbie'],
+      filmesFamosos: ['Oppenheimer', 'A Origem', 'Batman Begins'],
       favorito: false
     },
     {
-      nome: 'Leonardo DiCaprio',
-      nascimento: '11/11/1974',
-      nacionalidade: 'Estadunidense',
+      nome: 'Pedro Pascal',
+      nascimento: '02/04/1975',
+      nacionalidade: 'Chileno-Americano',
       popularidade: 10,
       foto: 'https://tmdb.org',
-      filmesFamosos: ['Titanic', 'A Origem', 'O Lobo de Wall Street'],
+      filmesFamosos: ['Gladiador II', 'The Mandalorian', 'O Protetor 2'],
       favorito: false
     }
   ];
@@ -39,7 +39,7 @@ export class Tab3Page {
   async exibirAlertaFavorito(ator: IAtor) {
     const alert = await this.alertController.create({
       header: 'Meus Favoritos',
-      message: `Deseja realmente favoritar o ator ${ator.nome}?`,
+      message: `Deseja realmente favoritar o actor ${ator.nome}?`,
       buttons: [
         { text: 'Cancelar', role: 'cancel', handler: () => { ator.favorito = false; } },
         { text: 'Sim, favoritar.', handler: () => { ator.favorito = true; this.apresentarToast(); } }
