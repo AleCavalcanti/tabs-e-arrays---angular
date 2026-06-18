@@ -16,7 +16,7 @@ export class Tab2Page {
       lancamento: '15/01/2023',
       temporadas: '1 Temporada',
       classificacao: 9,
-      cartaz: 'https://tmdb.org',
+      cartaz: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZ0uZB07sSznX1iX2dB_C7yCCWSu8R1SknwQ&s',
       generos: ['Drama', 'Ficção científica', 'Ação'],
       favorito: false
     },
@@ -25,7 +25,7 @@ export class Tab2Page {
       lancamento: '08/02/2015',
       temporadas: '6 Temporadas',
       classificacao: 9,
-      cartaz: 'https://tmdb.org',
+      cartaz: 'https://m.media-amazon.com/images/M/MV5BNDdjNTEzMjMtYjM3Mi00NzQ3LWFlNWMtZjdmYWU3ZDkzMjk1XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg',
       generos: ['Drama', 'Crime'],
       favorito: false
     }

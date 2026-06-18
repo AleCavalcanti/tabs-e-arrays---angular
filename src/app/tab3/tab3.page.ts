@@ -16,7 +16,7 @@ export class Tab3Page {
       nascimento: '25/05/1976',
       nacionalidade: 'Irlandês',
       popularidade: 9,
-      foto: 'https://tmdb.org',
+      foto: 'https://upload.wikimedia.org/wikipedia/commons/e/ed/Cillian_Murphy_at_the_London_premier_of_Steve_in_September_2025_%28cropped%29.jpg',
       filmesFamosos: ['Oppenheimer', 'A Origem', 'Batman Begins'],
       favorito: false
     },
@@ -25,7 +25,7 @@ export class Tab3Page {
       nascimento: '02/04/1975',
       nacionalidade: 'Chileno-Americano',
       popularidade: 10,
-      foto: 'https://tmdb.org',
+      foto: 'https://br.web.img3.acsta.net/c_310_420/pictures/19/08/27/21/51/5540573.jpg',
       filmesFamosos: ['Gladiador II', 'The Mandalorian', 'O Protetor 2'],
       favorito: false
     }

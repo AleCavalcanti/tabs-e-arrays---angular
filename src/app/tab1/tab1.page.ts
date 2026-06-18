@@ -1,5 +1,4 @@
 import { NavigationExtras, Router } from '@angular/router';
-
 import { Component } from '@angular/core';
 import { IFilme } from '../model/IFilme';
 import { AlertController, ToastController } from '@ionic/angular';
@@ -24,7 +23,7 @@ nome: 'O Espetacular Homem-Aranha (2012)',
       lancamento: '06/07/2012',
       duracao: '2h16m',
       classificacao: 8,
-      cartaz: 'https://themoviedb.org',
+      cartaz: 'https://upload.wikimedia.org/wikipedia/pt/5/53/The_Amazing_Spider-Man_Poster.jpg',
       generos: ['Ação', 'Ficção científica', 'Aventura'],
       pagina: '/the-amazing-spider-man',
       favorito: false
@@ -34,12 +33,12 @@ nome: 'Batman: O Cavaleiro das Trevas (2008)',
       lancamento: '18/07/2008',
       duracao: '2h32m',
       classificacao: 10,
-      cartaz: 'https://themoviedb.org',
+      cartaz: 'https://br.web.img3.acsta.net/medias/nmedia/18/86/98/32/19870786.jpg',
       generos: ['Ação', 'Crime', 'Thriller'],
       pagina: '/the-dark-knight',
       favorito: false
     }
-  
+
   ];
 
   exibirFilme(filme: IFilme){
